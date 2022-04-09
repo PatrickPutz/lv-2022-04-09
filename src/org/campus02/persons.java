@@ -12,7 +12,13 @@ public class persons {
             String stringHelper = "";
 
             while((stringHelper = br.readLine()) != null){
-                System.out.println(stringHelper);
+                String[] columns = stringHelper.split(";");
+                System.out.println("columns.length = " + columns.length);
+                System.out.println("columns[0] = " + columns[0]);
+                System.out.println("columns[1] = " + columns[1]);
+                System.out.println("columns[2] = " + columns[2]);
+
+                //System.out.println(stringHelper);
             }
 
         } catch (FileNotFoundException e) {
