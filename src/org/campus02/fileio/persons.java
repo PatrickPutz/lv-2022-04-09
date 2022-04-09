@@ -1,4 +1,4 @@
-package org.campus02;
+package org.campus02.fileio;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
